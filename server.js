@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 // --- 密钥配置 ---
-const BAIDU_API_KEY = "bce-v3/ALTAK-Hnlz8i7ONeEgcZe98QpjJ/2f372587c25184fe27d1d03fbba289ffee0afd38";
+const BAIDU_API_KEY = process.env.BAIDU_API_KEY;
 // --------------------------------------------------------------------
 
 // 2. 使用 cors 中间件
